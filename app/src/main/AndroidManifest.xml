@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mozeeb.bangundatar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".persegi_panjang"
+            android:label="@string/persegi_panjang">
+        </activity>
+        <activity android:name=".luas_segitiga"
+            android:label="@string/luas_segitiga">
+        </activity>
+        <activity android:name=".luas_jajar_genjang"
+            android:label="@string/luas_jajar_genjang">
+        </activity>
+        <activity android:name=".luas_persegi"
+            android:label="@string/luas_persegi">
+        </activity>
+        <activity android:name=".keliling_persegi"
+            android:label="@string/keliling_persegi">
+        </activity>
+    </application>
+
+</manifest>

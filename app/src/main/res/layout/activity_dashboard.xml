@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SELAMAT DATANG DI APLIKASI PERHITUNGAN BANGUN DATAR"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/persegi_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Persegi Panjang"
+            android:textColor="@color/colorPrimary"
+            android:onClick="btn_psg"/>
+
+        <Button
+            android:id="@+id/segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segitiga"
+            android:onClick="btn_sgt"/>
+
+        <Button
+            android:id="@+id/jajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JAJAR GENJANG"
+            android:onClick="btn_jajar"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LUAS PERSEGI"
+            android:onClick="btn_persegi"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KELILING PERSEGI"
+            android:onClick="btn_keliling"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

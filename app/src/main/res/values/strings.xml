@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="luas_segitiga">Luas Segitiga</string>
+    <string name="luas_jajar_genjang">Luas Jajar Genjang</string>
+    <string name="luas_persegi">Luas Persegi</string>
+    <string name="keliling_persegi">Keliling Persegi</string>
+
+</resources>
